@@ -35,6 +35,27 @@
                     "modelFileName": "model.json",
                     "fileName": "resources.zip",
                     "previewImage": "image/SAPUI5-Application.png"
+                },
+                {
+                    "id": "sap-kadaster-fiori-templates.kadasterflexcollayouttwocolumns",
+                    "template": "kadasterfioritemplatesplugin/kadasterflexcollayouttwocolumns/kadasterflexcollayouttwocolumns",
+                    "name": "{i18n>Config_template_kadasterflexcollayouttwocolumns_name}",
+                    "description": "{i18n>Config_template_kadasterflexcollayouttwocolumns_desc}",
+                    "path": "kadasterfioritemplatesplugin/kadasterflexcollayouttwocolumns",
+                    "icon": "sap-icon://detail-view",
+                    "internalOnly": false,
+                    "category": "SAP.Fiori.Application",
+                    "wizardSteps": [
+                        "templateCustomizationStep"
+                    ],
+                    "templateType": "project",
+                    "requiresNeoApp": true,
+                    "version": "1.0.0",
+                    "orderPriority": 1000,
+                    "modelRoot": "basicSAPUI5ApplicationProject",
+                    "modelFileName": "model.json",
+                    "fileName": "resources.zip",
+                    "previewImage": "image/SAPUI5-Application.png"
                 }
             ]
         }

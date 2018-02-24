@@ -16,7 +16,7 @@
     {
       "templateId": "plugindevelopment.existingtemplatecomponent",
       "templateVersion": "1.4.0",
-      "dateTimeStamp": "Thu, 22 Feb 2018 21:25:58 GMT"
+      "dateTimeStamp": "Sat, 24 Feb 2018 14:42:15 GMT"
     }
   ],
   "translation": {
@@ -35,6 +35,6 @@
   "hcpdeploy": {
     "account": "a0838c363",
     "name": "sapkadasterfioritemplates",
-    "lastVersionWeTriedToDeploy": "1.0.0"
+    "lastVersionWeTriedToDeploy": "1.0.1"
   }
 }
