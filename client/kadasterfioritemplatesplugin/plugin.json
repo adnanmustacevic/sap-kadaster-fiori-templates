@@ -1,0 +1,43 @@
+{
+    "name": "kadasterfioritemplatesplugin",
+    "description": "Kadaster Fiori Templates Plugin",
+    "i18n": "kadasterfioritemplatesplugin/i18n/i18n",
+    "requires": {
+        "services": [
+            "template",
+            "templateCustomizationStep"
+        ]
+    },
+    "provides": {
+        "services": {},
+        "interfaces": {}
+    },
+    "configures": {
+        "services": {
+            "template:templates": [
+                {
+                    "id": "sap-kadaster-fiori-templates.kadasterflexcollayouttreecolumns",
+                    "template": "kadasterfioritemplatesplugin/kadasterflexcollayouttreecolumns/kadasterflexcollayouttreecolumns",
+                    "name": "{i18n>Config_template_kadasterflexcollayouttreecolumns_name}",
+                    "description": "{i18n>Config_template_kadasterflexcollayouttreecolumns_desc}",
+                    "path": "kadasterfioritemplatesplugin/kadasterflexcollayouttreecolumns",
+                    "icon": "sap-icon://detail-view",
+                    "internalOnly": false,
+                    "category": "LayoutEditor.Sample",
+                    "wizardSteps": [
+                        "templateCustomizationStep"
+                    ],
+                    "templateType": "project",
+                    "requiresNeoApp": true,
+                    "version": "1.0.0",
+                    "orderPriority": 1000,
+                    "modelRoot": "basicSAPUI5ApplicationProject",
+                    "modelFileName": "model.json",
+                    "fileName": "resources.zip",
+                    "previewImage": "image/SAPUI5-Application.png"
+                }
+            ]
+        }
+    },
+    "subscribes": {}
+}

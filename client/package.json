@@ -1,0 +1,11 @@
+{
+	"name": "kadasterfioritemplatesfeature",
+	"title": "kadasterfioritemplatesfeature",
+	"version": "1.0.0",
+	"description": "Kadaster Fiori Templates Feature",
+	"homepage": "",
+	"icon": "",
+	"bundledPlugins": {
+		"kadasterfioritemplatesplugin": "file:kadasterfioritemplatesplugin"
+	}
+}
