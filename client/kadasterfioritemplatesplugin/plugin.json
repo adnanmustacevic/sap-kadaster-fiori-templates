@@ -23,7 +23,7 @@
                     "path": "kadasterfioritemplatesplugin/kadasterflexcollayouttreecolumns",
                     "icon": "sap-icon://detail-view",
                     "internalOnly": false,
-                    "category": "LayoutEditor.Sample",
+                    "category": "kadasterfioritemplates",
                     "wizardSteps": [
                         "templateCustomizationStep"
                     ],
@@ -44,7 +44,7 @@
                     "path": "kadasterfioritemplatesplugin/kadasterflexcollayouttwocolumns",
                     "icon": "sap-icon://detail-view",
                     "internalOnly": false,
-                    "category": "SAP.Fiori.Application",
+                    "category": "kadasterfioritemplates",
                     "wizardSteps": [
                         "templateCustomizationStep"
                     ],
@@ -57,7 +57,15 @@
                     "fileName": "resources.zip",
                     "previewImage": "image/SAPUI5-Application.png"
                 }
+            ],
+            "template:categories": [
+                {
+                    "id": "kadasterfioritemplates",
+                    "name": "{i18n>Config_category_Kadaster_Fiori_Templates_name}",
+                    "description": "{i18n>Config_category_Kadaster_Fiori_Templates_desc}"
+                }
             ]
+
         }
     },
     "subscribes": {}
